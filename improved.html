@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="imp.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <label for="search" class="visually-hidden">Search</label>
+      <input id="search" name="searchbar" type="search" placeholder="Search" />
+    </div>
+  </header>
+
+  <div class="container layout">
+    <aside class="sidebar" aria-label="Main navigation">
+      <nav id="nav">
+        <div class="nav-title">Navigation</div>
+        <ul>
+          <li><a href="#" class="active" aria-current="page">Overview</a></li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Analysis</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <section class="stats">
+        <div class="stat card">
+          <div class="stat-title">USERS</div>
+          <div class="stat-number">12,430</div>
+        </div>
+        <div class="stat card">
+          <div class="stat-title">REVENUE</div>
+          <div class="stat-number">125,100</div>
+        </div>
+        <div class="stat card">
+          <div class="stat-title">ACTIVE</div>
+          <div class="stat-number">3,120</div>
+        </div>
+      </section>
+
+      <section class="users">
+        <h2>Recent Users</h2>
+        <table class="table" role="table" aria-label="Recent users">
+          <caption class="visually-hidden">Recent users list</caption>
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>john@gmail.com</td>
+              <td>Admin</td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>jane@gmail.com</td>
+              <td>User</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
